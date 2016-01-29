@@ -1,8 +1,8 @@
-import pymongo
+"""Testando Pymongo."""
 
 from pymongo import MongoClient
 
-#Connect to database
+# Connect to database
 connection = MongoClient('localhost', 27017)
 
 db = connection.test
